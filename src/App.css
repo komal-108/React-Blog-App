@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,227 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+}
+/* .header_button{
+  padding: 10px 30px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 0;
+} */
+.blog_head{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.blogs_container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:40px ;
+  width: 70%;
+  gap: 20px;
+}
+.blogs_items{
+  width: 70%;
+}
+.blogs_items h3{
+  padding: 10px 0px;
+}
+.blog_items_right{
+  width: 30%;
+}
+.blog_category{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 14px;
+}
+.blog_description{
+  color: #908f8f;
+}
+.blog_button,.header_button,.filter_button{
+  padding: 10px 20px;
+  /* height: 35px; */
+  border-radius: 20px;
+  border: 0;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #F2F2F2;
+}
+.blogs_main_box{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.blogs_left{
+  width: 70%;
+}
+.blogs_right{
+  width: 30%;
+}
+.filter_button{
+  /* padding: 10px 30px; */
+  margin: 10px 0px 5px  10px;
+}
+/* .............form_container,............. */
+.form_container{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form_box{
+  /* border: 1px solid black; */
+  background-color: #F4F4F4;
+  padding: 30px 40px 30px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form_label_input{
+  width: 100%;
+  background: transparent;
+  
+}
+.title_input{
+  width: 100%;
+  border: 1px solid rgb(171, 170, 170);
+  background-color: transparent;
+  height: 15px;
+  margin-top: 10px;
+}
+.blog_form_input{
+  padding: 8px;
+  outline: none;
+
+}
+.blog_form_des{
+  width: 100%;
+  height: 100px;
+  background-color: transparent;
+  padding: 10px;
+  outline: none;
+  resize: vertical;
+}
+/* .inputs{
+  display: block;
+} */
+.form_label_input2{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin: 10px 0px;
+}
+.label_desc{
+  padding: 10px 0px 20px;
+}
+.submit_button_div{
+  text-align: center;
+}
+.submit_form,.login_button{
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: #1986F5;
+}
+/* ........................................................... */
+.popup, .overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+.overlay {
+  background: rgba(49,49,49,0.8);
+}
+.popup-content {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #f1f1f1;
+  padding: 30px 38px 24px 24px;
+  border-radius: 5px;
+}
+
+.close_popup {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  padding: 7px 10px;
+  border-radius: 5px;
+  background-color: #1986F5;
+  border: 0;
+  color: white;
+  cursor: pointer;
+
+}
+/* .........................login_box................ */
+.login_box{
+  width: 100%;
+  height: 100vh;
+  background-color:#F2F2F2 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_container{
+  background-color: white;
+  padding: 50px 40px;
+  width: 350px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.form_input{
+  padding: 20px 0px;
+}
+.form_input .label{
+  display: flex;
+  text-align: left;
+  padding-bottom: 15px;
+}
+.forgot_pass{
+  padding: 20px 0px 50px;
+  text-decoration: none;
+  color: #1986F5;
+}
+.input_field{
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  text-align: center;
+}
+.input{
+  padding: 5px;
+  width: 100%;
+  border: 0;
+  outline: none;
+}
+.login_button{
+  margin: 30px 0px;
+}
+.show_icon_button{
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
 }
