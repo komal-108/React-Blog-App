@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
+import {useState } from "react";
 import Header from "./header";
 
 export default function BlogApp() {
-  const [Blogs, setBlogs] = useState([
+  const [Blogs] = useState([
     {
       name: "John",
       title: "We need more women founders on offense",
