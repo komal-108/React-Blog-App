@@ -1,5 +1,5 @@
 import BlogApp from './component/blogs';
-import LoginForm from './component/loginform'
+// import LoginForm from './component/loginform'
 import './App.css';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
@@ -7,8 +7,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='blogs' element = {<BlogApp/>}/>
-          <Route path="/" element={<LoginForm />} />
+          <Route path='/' element = {<BlogApp/>}/>
+          {/* <Route path="/" element={<LoginForm />} /> */}
         </Routes>
       </BrowserRouter>
     </>
